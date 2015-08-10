@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoPuls.Model", "InfoPuls.Model\InfoPuls.Model.csproj", "{164720F5-C37D-4CDD-9516-C3B3DDC6CA41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoPuls.View", "InfoPuls.View\InfoPuls.View.csproj", "{2141A993-8D72-43EA-8E84-E3ABA1A1ED64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoPuls.Model.Test", "InfoPuls.Test\InfoPuls.Model.Test.csproj", "{32706542-D286-4E4F-B79D-632E4925BF32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{164720F5-C37D-4CDD-9516-C3B3DDC6CA41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164720F5-C37D-4CDD-9516-C3B3DDC6CA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164720F5-C37D-4CDD-9516-C3B3DDC6CA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164720F5-C37D-4CDD-9516-C3B3DDC6CA41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2141A993-8D72-43EA-8E84-E3ABA1A1ED64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2141A993-8D72-43EA-8E84-E3ABA1A1ED64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2141A993-8D72-43EA-8E84-E3ABA1A1ED64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2141A993-8D72-43EA-8E84-E3ABA1A1ED64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32706542-D286-4E4F-B79D-632E4925BF32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32706542-D286-4E4F-B79D-632E4925BF32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32706542-D286-4E4F-B79D-632E4925BF32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32706542-D286-4E4F-B79D-632E4925BF32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

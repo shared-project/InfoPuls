@@ -12,9 +12,6 @@ namespace InfoPuls.Model.Extensions
             Helper.ArgumentNullReferenceException(current, "current", "SimpleIntersection");
             Helper.ArgumentNullReferenceException(instance, "instance", "SimpleIntersection");
 
-            Helper.ArgumentNullReferenceException(current, "current", "GetStrongIntersection");
-            Helper.ArgumentNullReferenceException(instance, "instance", "GetStrongIntersection");
-
             Dictionary<S, T> min = current.Count <= instance.Count ? current : instance;
             Dictionary<S, T> max = instance.Count >= current.Count ? instance : current;
 

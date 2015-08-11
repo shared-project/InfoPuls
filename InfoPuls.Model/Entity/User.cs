@@ -29,5 +29,13 @@ namespace InfoPuls.Model.Entity
         {
             return this.ToString().ToLower().GetHashCode();
         }
+
+        public override bool Equals(object obj)
+        {
+            if ((obj is User) && obj.GetHashCode() == this.GetHashCode())
+                return true;
+
+            return false;
+        }
     }
 }

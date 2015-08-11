@@ -60,10 +60,7 @@ namespace InfoPuls.Model.DataAccess
             IEnumerable<string> intersectKeys = min.Keys.Intersect(max.Keys, StringComparer.OrdinalIgnoreCase);
             foreach (string key in intersectKeys)
             {
-                int minValueHash = min[key].GetHashCode();
-                int maxValueHash = max[key].GetHashCode();
-
-                if (minValueHash == maxValueHash)
+                if(min[key].Equals(max[key]))
                     result.Add(key, min[key]);
             }
 
